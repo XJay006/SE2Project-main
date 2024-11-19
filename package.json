@@ -1,0 +1,22 @@
+{
+  "name": "se2project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./app.js ./dist/bundle.js",
+    "start": "webpack ./app.js ./dist/bundle.js & http-server"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "description": ""
+}

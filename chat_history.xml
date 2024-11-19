@@ -1,0 +1,18 @@
+<chats>
+    <chat>
+        <name>Monday</name>
+        <file>./Saves/temp.txt</file>
+    </chat>
+    <chat>
+        <name>Tuesday</name>
+        <file>./Saves/temp.txt</file>
+    </chat>
+    <chat>
+        <name>Wednesday</name>
+        <file>./Saves/temp.txt</file>
+    </chat>
+    <chat>
+        <name>Thursday</name>
+        <file>./Saves/temp.txt</file>
+    </chat>
+</chats>

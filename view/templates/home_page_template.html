@@ -1,0 +1,24 @@
+<ul id="display" class="bg-success bg-opacity-25"></ul>
+<div class="container">
+  <div class="chat-container">
+    <div id="chat-title" class="chat-title text-center fs-4 mb-2">New Chat</div>
+    <button id="save-chat" class="btn btn-outline-primary me-2" type="button">Save Chat</button>
+    <div id="chat-window" class="chat-window bg-light p-3 mb-3" style="height: 400px; overflow-y: auto;">
+      <!-- messages will be appended here -->
+    </div>
+    <form id="chat-form">
+      <div class="input-group">
+        <button id="rename-chat" class="btn btn-outline-primary me-2" type="button">Rename Chat</button>
+        <input
+          type="text"
+          name="chat-input"
+          id="chat-input"
+          class="form-control"
+          placeholder="Type your message..."
+          required
+        />
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </form>
+  </div>
+</div>
